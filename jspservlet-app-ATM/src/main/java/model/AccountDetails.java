@@ -1,8 +1,8 @@
 package model;
 
-public class AccountDetails{
-    
-    private String accountType;
+public class AccountDetails
+{
+	private String accountType;
 	private double withdrawOrDepositAmount;
 	private double availableBalance;
 	private int pin;
@@ -39,4 +39,5 @@ public class AccountDetails{
 	public void setPin(int pin) {
 		this.pin = pin;
 	}
+	
 }
